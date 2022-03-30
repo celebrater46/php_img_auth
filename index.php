@@ -12,7 +12,7 @@ require_once "pia_get_html.php";
     <title>Test Securimage</title>
 </head>
 <body>
-    <?php echo pia_get_html(); ?>
+    <?php echo pia_get_html(true); ?>
     <script src="main.js"></script>
 </body>
 </html>
