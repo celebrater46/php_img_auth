@@ -1,5 +1,9 @@
 <?php
 
+namespace php_img_auth;
+
+use Securimage;
+
 require_once 'securimage/securimage.php';
 
 $securimage = new Securimage();

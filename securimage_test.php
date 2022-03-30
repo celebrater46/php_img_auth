@@ -1,4 +1,7 @@
 <?php
+
+namespace php_img_auth;
+
 /**
  * Securimage Test Script
  * Version 3.6.1 - 2018-09-11
