@@ -6,8 +6,8 @@ $securimage = new Securimage();
 
 if(isset($_POST['captcha_code'])) {
     if($securimage->check($_POST['captcha_code']) === true) {
-        echo '画像認証OK';
+        echo 'Authorized.';
     } else {
-        echo '画像認証エラー';
+        echo 'Not authorized.';
     }
 }
