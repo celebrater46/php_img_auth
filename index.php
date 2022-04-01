@@ -12,7 +12,8 @@ require_once "pia_get_html.php";
     <title>Test Securimage</title>
 </head>
 <body>
-    <?php echo pia_get_html(true, 1); ?>
-    <script src="main.js"></script>
+    <?php echo pia_get_html(true, 1, ""); ?>
+    <?php echo pia_get_script_html(""); ?>
+<!--    <script src="main.js"></script>-->
 </body>
 </html>
