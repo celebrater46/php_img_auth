@@ -2,7 +2,7 @@
 
 namespace php_img_auth;
 
-use common_modules as cm;
+use fp_common_modules as cm;
 
 require_once "pia_init.php";
 require_once (PIA_HTML_COMMON_MODULE);
