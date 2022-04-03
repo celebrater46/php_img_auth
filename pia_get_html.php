@@ -5,12 +5,12 @@ namespace php_img_auth;
 use fp_common_modules as cm;
 
 require_once "pia_init.php";
-require_once (PIA_HTML_COMMON_MODULE);
+require_once PIA_HTML_COMMON_MODULE;
 
 function get_words($lang){
     if($lang === 1){
         return [
-            "regenerate" => "regenerate",
+            "regenerate" => "Regenerate",
             "placeholder" => "Please type the code of the image.",
             "submit" => "SUBMIT"
         ];
